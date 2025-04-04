@@ -65,7 +65,67 @@ namespace DidizaCyberSecurity
                 DisplayErrorMessage("Could not generate voice greeting", ex);
             }
         }
+        private static void SpeakWelcomeMessage()
+        {
+            try
+            {
 
+                if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+                {
+                    SpeakOnWindows("Welcome to Didiza Chatbot. I am your online guardian, I am here to help you with everything cybersecurity.");
+                }
+                else
+                {
+
+                    Console.WriteLine("Welcome to Didiza Chatbot. I am your online guardian, I am here to help you with everything cybersecurity.");
+                }
+            }
+            catch (Exception ex)
+            {
+                DisplayErrorMessage("Could not generate voice greeting", ex);
+            }
+        }
+        private static void SpeakWelcomeMessage()
+        {
+            try
+            {
+
+                if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+                {
+                    SpeakOnWindows("Welcome to Didiza Chatbot. I am your online guardian, I am here to help you with everything cybersecurity.");
+                }
+                else
+                {
+
+                    Console.WriteLine("Welcome to Didiza Chatbot. I am your online guardian, I am here to help you with everything cybersecurity.");
+                }
+            }
+            catch (Exception ex)
+            {
+                DisplayErrorMessage("Could not generate voice greeting", ex);
+            }
+        }
+        private static void SpeakWelcomeMessage()
+        {
+            try
+            {
+
+                if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+                {
+                    SpeakOnWindows("Welcome to Didiza Chatbot. I am your online guardian, I am here to help you with everything cybersecurity.");
+                }
+                else
+                {
+
+                    Console.WriteLine("Welcome to Didiza Chatbot. I am your online guardian, I am here to help you with everything cybersecurity.");
+                }
+            }
+            catch (Exception ex)
+            {
+                DisplayErrorMessage("Could not generate voice greeting", ex);
+            }
+        }
+ 
         private static void SpeakOnWindows(string message)
         {
             try
