@@ -86,6 +86,8 @@ namespace DidizaCyberSecurity
             }
         }
 
+
+
         public static void Main()
         {
             Console.Title = $"{APP_NAME} - Digital Safety Assistant";
@@ -102,6 +104,45 @@ namespace DidizaCyberSecurity
             RunChatbotInteraction(userName);
         }
 
+        private static void DisplayWelcomeBanner()
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(@"
+        ██████╗██╗   ██╗██████╗ ███████╗██████╗ ███████╗███████╗ ██████╗
+        ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝
+        ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝███████╗█████╗  ██║    
+        ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗╚════██║██╔══╝  ██║    
+        ╚██████╗   ██║   ██████╔╝███████╗██║  ██║███████║███████╗╚██████╗
+         ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝
+        ");
+            Console.ResetColor();
+        }
+        private static void DisplayWelcomeBanner()
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(@"
+        ██████╗██╗   ██╗██████╗ ███████╗██████╗ ███████╗███████╗ ██████╗
+        ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝
+        ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝███████╗█████╗  ██║    
+        ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗╚════██║██╔══╝  ██║    
+        ╚██████╗   ██║   ██████╔╝███████╗██║  ██║███████║███████╗╚██████╗
+         ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝
+        ");
+            Console.ResetColor();
+        }
+        private static void DisplayWelcomeBanner()
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(@"
+        ██████╗██╗   ██╗██████╗ ███████╗██████╗ ███████╗███████╗ ██████╗
+        ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝
+        ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝███████╗█████╗  ██║    
+        ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗╚════██║██╔══╝  ██║    
+        ╚██████╗   ██║   ██████╔╝███████╗██║  ██║███████║███████╗╚██████╗
+         ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝
+        ");
+            Console.ResetColor();
+        }
         private static void DisplayWelcomeBanner()
         {
             Console.ForegroundColor = ConsoleColor.Green;
