@@ -44,7 +44,94 @@ namespace DidizaCyberSecurity
 
     {"iot security", "Change default passwords on smart devices like cameras, routers, and doorbells to prevent hacking. Regularly update firmware to patch security flaws and disable unnecessary remote access. Example: Setting a strong password on your Wi-Fi camera prevents attackers from spying on you remotely."}
 };
+        private static readonly Dictionary<string, string> CyberTopics = new Dictionary<string, string>
+{
+    {"password",  "Use at least 12 characters with letters, numbers, and symbols. Avoid using names, birthdays, or common words like 'password123'. Enable password managers to generate and store strong passwords securely. Example: 'D1d1z@2024!CyberH3ro'."},
 
+    {"phishing", "Phishing is when scammers trick you into revealing personal information via fake emails or messages. Always verify links before clicking and check for spelling errors in email domains. Example: A fake bank email asking for your login details, such as 'yourbank-security.com' instead of 'yourbank.com'."},
+
+    {"safe browsing", "Avoid clicking unknown links and ensure the site uses HTTPS for secure connections. Install browser security extensions to detect malicious websites. Example: Instead of 'http://example.com', use 'https://example.com' to encrypt your data."},
+
+    {"2fa", "Two-Factor Authentication (2FA) adds a second step to logins, such as an SMS code or authentication app. This prevents hackers from accessing your account even if they steal your password. Example: When logging into Gmail, you receive a verification code on your phone that you must enter to gain access."},
+
+    {"ransomware", "Ransomware is malware that locks your files and demands payment for their release. Never pay the ransom; instead, restore files from a secure backup. Example: The WannaCry attack encrypted hospitals' data, demanding payment in Bitcoin, disrupting medical operations worldwide."},
+
+    {"vpn", "A VPN encrypts your internet traffic, hiding your browsing activity from hackers and ISPs. Use a reputable paid VPN service rather than free ones, which may log your data. Example: Using a VPN while connected to public Wi-Fi prevents attackers from stealing your banking credentials."},
+
+    {"public wi-fi", "Public Wi-Fi is risky as hackers can intercept data and launch man-in-the-middle attacks. Avoid logging into banking or personal accounts while connected to unsecured networks. Tip: Use a VPN to add an extra layer of encryption to your connection."},
+
+    {"social engineering", "Hackers manipulate people into revealing sensitive information through deception. Be cautious of unsolicited phone calls, messages, or emails requesting login credentials. Example: A scammer posing as IT support calls you and asks for your password to 'fix' a non-existent issue."},
+
+    {"data backups", "Regularly back up important files to prevent data loss from cyberattacks or system failures. Store backups on an external hard drive or a secure cloud service with encryption. Example: Using Google Drive or OneDrive ensures you can recover your files if your device is compromised."},
+
+    {"software updates", "Keeping software updated patches security vulnerabilities that hackers exploit. Enable automatic updates for your operating system, browser, and antivirus software. Example: Updating Windows ensures you get the latest security fixes against known exploits like zero-day attacks."},
+
+    {"privacy settings", "Adjust social media settings to limit who can see your personal information. Disable location tracking and restrict data sharing with third-party apps. Example: Make your Facebook profile private so only friends can view your posts and personal details."},
+
+    {"mobile security", "Only install apps from official stores like Google Play and Apple App Store. Regularly check app permissions to ensure they aren’t accessing unnecessary data. Example: A flashlight app shouldn’t need access to your contacts or messages."},
+
+    {"email security", "Verify sender details before clicking links or downloading attachments in emails. Look for spoofed email addresses that mimic trusted companies but have slight variations. Example: An email from 'support@yourbank.com' is legitimate, but 'bankhelp@gmail.com' is likely a scam."},
+
+    {"iot security", "Change default passwords on smart devices like cameras, routers, and doorbells to prevent hacking. Regularly update firmware to patch security flaws and disable unnecessary remote access. Example: Setting a strong password on your Wi-Fi camera prevents attackers from spying on you remotely."}
+}; private static readonly Dictionary<string, string> CyberTopics = new Dictionary<string, string>
+{
+    {"password",  "Use at least 12 characters with letters, numbers, and symbols. Avoid using names, birthdays, or common words like 'password123'. Enable password managers to generate and store strong passwords securely. Example: 'D1d1z@2024!CyberH3ro'."},
+
+    {"phishing", "Phishing is when scammers trick you into revealing personal information via fake emails or messages. Always verify links before clicking and check for spelling errors in email domains. Example: A fake bank email asking for your login details, such as 'yourbank-security.com' instead of 'yourbank.com'."},
+
+    {"safe browsing", "Avoid clicking unknown links and ensure the site uses HTTPS for secure connections. Install browser security extensions to detect malicious websites. Example: Instead of 'http://example.com', use 'https://example.com' to encrypt your data."},
+
+    {"2fa", "Two-Factor Authentication (2FA) adds a second step to logins, such as an SMS code or authentication app. This prevents hackers from accessing your account even if they steal your password. Example: When logging into Gmail, you receive a verification code on your phone that you must enter to gain access."},
+
+    {"ransomware", "Ransomware is malware that locks your files and demands payment for their release. Never pay the ransom; instead, restore files from a secure backup. Example: The WannaCry attack encrypted hospitals' data, demanding payment in Bitcoin, disrupting medical operations worldwide."},
+
+    {"vpn", "A VPN encrypts your internet traffic, hiding your browsing activity from hackers and ISPs. Use a reputable paid VPN service rather than free ones, which may log your data. Example: Using a VPN while connected to public Wi-Fi prevents attackers from stealing your banking credentials."},
+
+    {"public wi-fi", "Public Wi-Fi is risky as hackers can intercept data and launch man-in-the-middle attacks. Avoid logging into banking or personal accounts while connected to unsecured networks. Tip: Use a VPN to add an extra layer of encryption to your connection."},
+
+    {"social engineering", "Hackers manipulate people into revealing sensitive information through deception. Be cautious of unsolicited phone calls, messages, or emails requesting login credentials. Example: A scammer posing as IT support calls you and asks for your password to 'fix' a non-existent issue."},
+
+    {"data backups", "Regularly back up important files to prevent data loss from cyberattacks or system failures. Store backups on an external hard drive or a secure cloud service with encryption. Example: Using Google Drive or OneDrive ensures you can recover your files if your device is compromised."},
+
+    {"software updates", "Keeping software updated patches security vulnerabilities that hackers exploit. Enable automatic updates for your operating system, browser, and antivirus software. Example: Updating Windows ensures you get the latest security fixes against known exploits like zero-day attacks."},
+
+    {"privacy settings", "Adjust social media settings to limit who can see your personal information. Disable location tracking and restrict data sharing with third-party apps. Example: Make your Facebook profile private so only friends can view your posts and personal details."},
+
+    {"mobile security", "Only install apps from official stores like Google Play and Apple App Store. Regularly check app permissions to ensure they aren’t accessing unnecessary data. Example: A flashlight app shouldn’t need access to your contacts or messages."},
+
+    {"email security", "Verify sender details before clicking links or downloading attachments in emails. Look for spoofed email addresses that mimic trusted companies but have slight variations. Example: An email from 'support@yourbank.com' is legitimate, but 'bankhelp@gmail.com' is likely a scam."},
+
+    {"iot security", "Change default passwords on smart devices like cameras, routers, and doorbells to prevent hacking. Regularly update firmware to patch security flaws and disable unnecessary remote access. Example: Setting a strong password on your Wi-Fi camera prevents attackers from spying on you remotely."}
+}; private static readonly Dictionary<string, string> CyberTopics = new Dictionary<string, string>
+{
+    {"password",  "Use at least 12 characters with letters, numbers, and symbols. Avoid using names, birthdays, or common words like 'password123'. Enable password managers to generate and store strong passwords securely. Example: 'D1d1z@2024!CyberH3ro'."},
+
+    {"phishing", "Phishing is when scammers trick you into revealing personal information via fake emails or messages. Always verify links before clicking and check for spelling errors in email domains. Example: A fake bank email asking for your login details, such as 'yourbank-security.com' instead of 'yourbank.com'."},
+
+    {"safe browsing", "Avoid clicking unknown links and ensure the site uses HTTPS for secure connections. Install browser security extensions to detect malicious websites. Example: Instead of 'http://example.com', use 'https://example.com' to encrypt your data."},
+
+    {"2fa", "Two-Factor Authentication (2FA) adds a second step to logins, such as an SMS code or authentication app. This prevents hackers from accessing your account even if they steal your password. Example: When logging into Gmail, you receive a verification code on your phone that you must enter to gain access."},
+
+    {"ransomware", "Ransomware is malware that locks your files and demands payment for their release. Never pay the ransom; instead, restore files from a secure backup. Example: The WannaCry attack encrypted hospitals' data, demanding payment in Bitcoin, disrupting medical operations worldwide."},
+
+    {"vpn", "A VPN encrypts your internet traffic, hiding your browsing activity from hackers and ISPs. Use a reputable paid VPN service rather than free ones, which may log your data. Example: Using a VPN while connected to public Wi-Fi prevents attackers from stealing your banking credentials."},
+
+    {"public wi-fi", "Public Wi-Fi is risky as hackers can intercept data and launch man-in-the-middle attacks. Avoid logging into banking or personal accounts while connected to unsecured networks. Tip: Use a VPN to add an extra layer of encryption to your connection."},
+
+    {"social engineering", "Hackers manipulate people into revealing sensitive information through deception. Be cautious of unsolicited phone calls, messages, or emails requesting login credentials. Example: A scammer posing as IT support calls you and asks for your password to 'fix' a non-existent issue."},
+
+    {"data backups", "Regularly back up important files to prevent data loss from cyberattacks or system failures. Store backups on an external hard drive or a secure cloud service with encryption. Example: Using Google Drive or OneDrive ensures you can recover your files if your device is compromised."},
+
+    {"software updates", "Keeping software updated patches security vulnerabilities that hackers exploit. Enable automatic updates for your operating system, browser, and antivirus software. Example: Updating Windows ensures you get the latest security fixes against known exploits like zero-day attacks."},
+
+    {"privacy settings", "Adjust social media settings to limit who can see your personal information. Disable location tracking and restrict data sharing with third-party apps. Example: Make your Facebook profile private so only friends can view your posts and personal details."},
+
+    {"mobile security", "Only install apps from official stores like Google Play and Apple App Store. Regularly check app permissions to ensure they aren’t accessing unnecessary data. Example: A flashlight app shouldn’t need access to your contacts or messages."},
+
+    {"email security", "Verify sender details before clicking links or downloading attachments in emails. Look for spoofed email addresses that mimic trusted companies but have slight variations. Example: An email from 'support@yourbank.com' is legitimate, but 'bankhelp@gmail.com' is likely a scam."},
+
+    {"iot security", "Change default passwords on smart devices like cameras, routers, and doorbells to prevent hacking. Regularly update firmware to patch security flaws and disable unnecessary remote access. Example: Setting a strong password on your Wi-Fi camera prevents attackers from spying on you remotely."}
+};
 
         private static void SpeakWelcomeMessage()
         {
